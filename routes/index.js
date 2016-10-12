@@ -14,20 +14,11 @@ const TOKENTIME = 120 * 60;
 
 //redis
 var client = redis.createClient(redisConf.port, redisConf.host, redisConf.auth);
-// client.auth(redisConf.pass, function(err, reply){
-//   if(err){
-//     console.log('connection error'+err);
-//   }
-//   console.log('reply : '+reply)
-// });
 
 client.on('connect', function () {
     console.log("connnected to redis ");
 });
 
-// client.on('error',function(err){
-//   console.error(err);
-// });
 
 var refreshTokenFromRandomString = function(length){
   var text = "";

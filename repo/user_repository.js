@@ -3,11 +3,9 @@
 module.exports = {
   user: {
     updateOrCreate: function(user, cb) {
-      // db dummy, we just cb the user
       cb(null, user);
     },
     authenticate: function(username, password, cb) {
-      // database dummy - find user and verify password
       if (username === 'wuriyanto' && password === '12345') {
         cb(null, {
           id: 666,
@@ -22,7 +20,6 @@ module.exports = {
     }
   },
   client: {
-    // db dummy for clients
     clients: [],
     clientCount: 0,
     updateOrCreate: function(data, cb) {
