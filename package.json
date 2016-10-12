@@ -5,6 +5,24 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wuriyanto48/nodejs-refreshtoken-with-redis-example.git"
+  },
+  "keywords": [
+    "oauth2",
+    "jsonwebtoken",
+    "refresh token",
+    "token"
+  ],
+  "author": [
+    "Wuriyanto<wuriyanto48@yahoo.co.id>"
+  ],
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/wuriyanto48/nodejs-refreshtoken-with-redis-example/issues"
+  },
+  "homepage": "https://github.com/wuriyanto48/nodejs-refreshtoken-with-redis-example#readme",
   "dependencies": {
     "axios": "^0.14.0",
     "body-parser": "~1.15.1",
