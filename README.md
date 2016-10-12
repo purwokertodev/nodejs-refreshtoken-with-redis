@@ -4,3 +4,8 @@ Refresh Token Example
 - redis
 - jsonwebtoken
 - passport
+
+how to run this Example
+
+- npm install
+- npm start
